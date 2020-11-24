@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template id="template" xml:space="preserve">
+    <t t-extend="OrderWidget">
+        <t t-jquery=".order-container .order-scroller .order" t-operation="append">
+            <div class="summary clearfix">
+                <div class="line">
+                    <div class="entry total">
+                        <span class="label">Subtotales por impuesto:</span>
+                        <div class="subentry" id="hbs-taxes-0">0%: <span class="value">0.00€</span></div>
+                        <div class="subentry" id="hbs-taxes-12">12%: <span class="value">0.00€</span></div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </t>
+</template>
